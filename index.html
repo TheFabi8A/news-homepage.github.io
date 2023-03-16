@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Homepage</title>
+    <link rel="stylesheet" href="styles-minify.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/svg/logo.svg" alt="">
+        <button id="btnMenu">
+            <img src="assets/svg/icon-menu.svg" alt="">
+        </button>
+        <nav class="navbar" id="navbar">
+            <button id="btnCloseMenu">
+                <img src="assets/svg/icon-menu-close.svg" alt="">
+            </button>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">New</a>
+                </li>
+                <li>
+                    <a href="#">Popular</a>
+                </li>
+                <li>
+                    <a href="#">Trending</a>
+                </li>
+                <li>
+                    <a href="#">Categories</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <picture>
+            <source srcset="assets/images/image-web-3-mobile.jpg" media="(max-width: 767px)">
+            <img src="#" alt="" class="block-img">
+        </picture>
+        <picture>
+            <source srcset="assets/images/image-web-3-desktop.jpg" media="(min-width: 768px)">
+            <img src="#" alt="" class="block-img">
+        </picture>
+        <h1 class="capi title-grid">the bright<br>future <span class="min">of</span> web 3.0?</h1>
+        <div class="container-read-more">
+            <p><span class="capi">we</span> dive into the next evolution of the web that claims to put the power of
+                the platforms back into the hands of the people. <span class="capi">but</span> is it really fulfilling
+                its promise?</p>
+            <button class="btn-read-more">read more</button>
+        </div>
+        <section class="section-new">
+            <h2 class="capi">new</h2>
+            <article class="article-new">
+                <h3 class="capi">hydrogen <span class="max">vs</span> electric cars</h3>
+                <p><span class="capi">will</span> hydrogen-fueled cars ever catch up to <span class="max">ev</span>s?
+                </p>
+            </article>
+            <hr>
+            <article class="article-new">
+                <h3 class="capi">the downsides <span class="min">of</span> <span class="max">ai</span> artistry</h3>
+                <p><span class="capi">what</span> are the possible adverse effects of on-demand <span
+                        class="max">ai</span> image generation?</p>
+            </article>
+            <hr>
+            <article class="article-new">
+                <h3 class="capi">is <span class="max">vc</span> funding drying up?</h3>
+                <p><span class="capi">private</span> funding by <span class="max">vc</span> firms is down 50% <span
+                        class="max">yoy.</span> <span class="capi">we</span>
+                    take a look at what that means.</p>
+            </article>
+        </section>
+        <section class="section-blog">
+            <article class="article-blog">
+                <img class="image-description" src="assets/images/image-retro-pcs.jpg" alt="">
+                <div class="blog-content">
+                    <span>01</span>
+                    <h3 class="capi">reviving retro <span class="max">pc</span>s</h3>
+                    <p><span class="capi">what</span> happens when old <span class="max">pc</span>s are given modern
+                        upgrades?</p>
+                </div>
+            </article>
+            <article class="article-blog">
+                <img class="image-description" src="assets/images/image-top-laptops.jpg" alt="">
+                <div class="blog-content">
+                    <span>02</span>
+                    <h3 class="capi">top 10 laptops <span class="min">of</span> 2022</h3>
+                    <p><span class="capi">our</span> best picks for various needs and budgets.</p>
+                </div>
+            </article>
+            <article class="article-blog">
+                <img class="image-description" src="assets/images/image-gaming-growth.jpg" alt="">
+                <div class="blog-content">
+                    <span>03</span>
+                    <h3 class="capi">the growth <span class="min">of</span> gaming</h3>
+                    <p><span class="capi">how</span> the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
